@@ -1,0 +1,9 @@
+#Texto1 h4 span{
+    font-style: italic;
+}
+
+#Texto1 p{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: justify;
+}
