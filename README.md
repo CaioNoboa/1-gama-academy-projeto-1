@@ -2,7 +2,7 @@
 
 Em um primeiro desafio, a Gama Academy desafiou seus alunos a criarem um site apenas com HTML e CSS e também a criarem um cronograma de execução baseado em metodologias ágeis.
 
-Você pode acessar o projeto em: https://caionoboa.github.io/Desafio-1-Gama-Academy/Diario_dos_Sonhos.html
+Você pode acessar o projeto em: https://caionoboa.github.io/1-gama-academy-projeto-1/
 
 O Diário de Sonhos é um website responsível para exibição e venda de produtos de papelaria artesanal.
 
