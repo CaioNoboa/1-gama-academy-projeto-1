@@ -1,0 +1,87 @@
+#Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 25px 25px 25px;    
+}
+
+#Logo{
+    max-height:100px;
+    width: auto;
+    height: auto; 
+}
+
+#Icones{
+    display: flex;
+    list-style: none;
+    font-size: 25px;    
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+#Icones a{
+    padding: 10px;
+    border-left: 2px dashed white;
+    transition: 500ms;
+    text-decoration: none;
+    color: rgb(14, 5, 146);
+}
+
+#Icones a:last-child{
+    border-right: 2px dashed white;
+}
+
+#Icones a:hover{
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+    color: rgb(255, 0, 140);
+}
+
+body {
+    background-color: cadetblue;
+    width: 100%;    
+}
+
+/* Responsividade */
+@media only screen and (max-width: 768px){
+    #Header{
+        margin: 20px 0px 20px 0px;
+    }
+    
+    #Logo{
+        max-height:50px;
+        width: auto;
+        height: auto;         
+    }
+
+    #Icones{
+        font-size: 20px;
+    }
+
+    #Icones a{
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #Header{
+        margin: 10px 0px 10px 0px;
+    }
+
+    #Logo{
+        max-height:30px;
+        width: auto;
+        height: auto;
+        margin: 0;  
+    }
+     
+    #Icones{
+        font-size: 12px;
+        
+    }
+
+    #Icones a{
+        padding: 5px;
+    }
+}

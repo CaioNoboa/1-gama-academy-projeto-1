@@ -1,0 +1,35 @@
+.carousel-indicators{
+    background-color: black;
+    margin: 0;
+}
+
+.card{
+    margin: 0px 100px 25px 100px;
+}
+
+#carouselExampleIndicators{
+    margin: 50px 100px 25px 100px;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 768px){
+    #carouselExampleIndicators{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .card{
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #carouselExampleIndicators{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .card{
+        margin: 0px;
+    }
+}
